@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="stylesheet.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contactez nous</title>
+</head>
+<body>
+	
+	<header>
+		<a href="#" class="logo">BRASSERIE</a>
+	<nav>
+		<ul>
+    <li class="btn-deroulant">
+        <a href="index.html#accueil">Accueil</a>
+
+        <ul class="sous-menu">
+
+            <li><a href="index.html#biere">NOS BIÈRES</a></li>
+            <li><a href="index.html#histoire">LA BRASSERIE</a></li>
+        </ul>
+    </li>
+</ul>
+      
+<ul>
+         <li><a href="Portfolio.html#Portfolio#Portfolio">Portfofolio</a></li>
+         <li><a href="Contact.html#Qui Sommes Nous ?">Qui Sommes Nous ?</a></li>
+	</header>
+
+   	<main>
+   		<section class="presentation">
+    <img src="images/presbra.png">
+</section>
+
+<section class="contact-brasserie">
+    <p class="contact-intro">BRASSERIE SAUVAGE</p>
+    <h1>Discutons autour d’une bière</h1>
+    <p>
+        Une question sur nos bières, une visite ou un projet ?
+        Laissez-nous votre message !
+    </p>
+    <p class="champs-obligatoires">Tous les champs sont obligatoires.</p>
+
+    <form id="formulaire-contact">
+        <label for="nom">Votre nom</label>
+        <input
+            type="text"
+            id="nom"
+            name="nom"
+            placeholder="Votre nom et prénom"
+            autocomplete="name"
+            required
+        >
+
+        <label for="email">Votre adresse e-mail</label>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="vous@exemple.be"
+            autocomplete="email"
+            required
+        >
+
+        <label for="message">Votre message</label>
+        <textarea
+            id="message"
+            name="message"
+            rows="7"
+            placeholder="Dites-nous ce qui vous amène..."
+            required
+        ></textarea>
+
+        <button type="submit">Préparer le courriel</button>
+
+        <p class="contact-information">
+            Votre messagerie s’ouvrira avec votre message préparé.
+            Vous pourrez ensuite confirmer l’envoi.
+        </p>
+    </form>
+</section>
+</section>
+
+
+   	</main>
+
+
+	<footer>
+		<p> BRASSERIE SAUVAGE</p>
+    <p>© 2026 — TOUS DROITS RÉSERVÉS</p>
+    <p>L'abus d'alcool est dangereux pour la santé.
+    À consommer avec modération.</p></footer>
+    <script src="contact.js" defer></script>
+</body>
+</html>
